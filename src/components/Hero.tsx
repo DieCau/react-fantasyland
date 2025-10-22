@@ -5,9 +5,9 @@ import heroImage from "@/assets/hero-image.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden bg-gray-900">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
@@ -20,7 +20,7 @@ const Hero = () => {
           {/* Hero Text */}
           <div className="text-white">
             <h2 className="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">
-              ¡Vive la magia de <span className="italic">La Navidad Encantada</span>!
+              ¡Vive la magia de <span className="italic text-yellow-300">La Navidad Encantada</span>!
             </h2>
           </div>
 
@@ -101,6 +101,18 @@ const Hero = () => {
           </p>
         </Card>
       </div>
+
+      {/* Curva inferior */}
+      <svg
+        className="absolute bottom-0 left-0 w-full"
+        viewBox="0 0 1440 320"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill="#fff"
+          d="M0,256L80,240C160,224,320,192,480,181.3C640,171,800,181,960,186.7C1120,192,1280,192,1360,192L1440,192V320H0Z"
+        />
+      </svg>
     </section>
   );
 };
