@@ -5,7 +5,7 @@ import heroImage from "@/assets/hero-image.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden bg-gray-900">
+    <section className="relative min-h-[800px] flex items-center justify-center overflow-hidden bg-gray-900">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
@@ -15,8 +15,8 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+      <div className="container mx-auto px-4 relative z-10 h-full flex items-center">
+        <div className="grid md:grid-cols-2 gap-8 items-center w-full">
           {/* Hero Text */}
           <div className="text-white">
             <h2 className="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">
@@ -25,7 +25,7 @@ const Hero = () => {
           </div>
 
           {/* Booking Card */}
-          <Card className="bg-white p-6 rounded-2xl shadow-2xl">
+          <Card className="bg-white p-6 rounded-2xl shadow-2xl md:w-[550px]">
             <div className="space-y-4">
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -103,14 +103,15 @@ const Hero = () => {
       </div>
 
       {/* Curva inferior */}
-      <svg
-        className="absolute bottom-0 left-0 w-full"
+      <svg      
+        className="absolute bottom-0 left-0 w-full h-32 md:h-48"
         viewBox="0 0 1440 320"
-        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        xmlns="http://www.w3.org/2000/svg"        
       >
         <path
-          fill="#fff"
-          d="M0,256L80,240C160,224,320,192,480,181.3C640,171,800,181,960,186.7C1120,192,1280,192,1360,192L1440,192V320H0Z"
+          fill="hsl(var(--background))"
+          d="M0,0 C360,320 1080,320 1440,0 L1440,320 L0,320 Z"
         />
       </svg>
     </section>

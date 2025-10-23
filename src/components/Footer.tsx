@@ -78,7 +78,7 @@ const Footer = () => {
               </p>
               <p className="text-sm text-muted-foreground">
                 Pídele asesoramiento a uno de nuestros expertos con sede en el corazón de los Parques. Contacta con ellos llamando al{" "}
-                <span className="font-bold">912 158 655</span>
+                <span className="font-bold">381 3156 288</span>
               </p>
               <p className="text-xs text-muted-foreground mt-2">
                 Precio de una llamada local desde una línea fija. El precio de las llamadas desde una línea móvil puede variar dependiendo de su compañía telefónica.
@@ -89,7 +89,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="text-center text-xs text-muted-foreground mt-8 pt-8 border-t border-border">
-          <p>En Wonderland Adventures aplicamos medidas sanitarias y de seguridad mejoradas para proteger a nuestros Visitantes y Empleados.</p>
+          <p>En Fantasyland Adventures aplicamos medidas sanitarias y de seguridad mejoradas para proteger a nuestros Visitantes y Empleados.</p>
           <p className="mt-2">© Adventure • Pixar & TM Lucasfilm Ltd. MARVEL. Todos los derechos reservados</p>
         </div>
       </div>

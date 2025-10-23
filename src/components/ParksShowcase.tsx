@@ -27,7 +27,7 @@ const ParksShowcase = () => {
               className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end justify-center p-6">
-              <h3 className="text-white text-2xl font-bold">#wonderlandpark</h3>
+              <h3 className="text-white text-2xl font-bold">#fantasylandpark</h3>
             </div>
           </div>
 
@@ -46,7 +46,7 @@ const ParksShowcase = () => {
 
         <div className="text-center mt-12">
           <p className="text-lg mb-6">
-            Descubre nuestros dos Parques: <span className="text-primary font-semibold">el Parque Wonderland</span>, <span className="text-primary font-semibold">el Parque Adventure Studios</span> y las tiendas, bares, restaurantes y cines de <span className="text-primary font-semibold">Adventure Village</span>.
+            Descubre nuestros dos Parques: <span className="text-primary font-semibold">el Parque Fantasyland</span>, <span className="text-primary font-semibold">el Parque Adventure Studios</span> y las tiendas, bares, restaurantes y cines de <span className="text-primary font-semibold">Adventure Village</span>.
           </p>
         </div>
       </div>

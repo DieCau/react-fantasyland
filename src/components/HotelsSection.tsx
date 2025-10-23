@@ -38,7 +38,7 @@ const HotelsSection = () => {
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">¡Descubre la magia de los Hoteles Wonderland!</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">¡Descubre la magia de los Hoteles Fantasyland!</h2>
           <p className="text-lg text-muted-foreground">
             Cada Hotel te sumergirá en una temática emblemática con una historia propia para contar. Te esperan mundos maravillosos para todas las edades, presupuestos y sueños.
           </p>

@@ -21,7 +21,7 @@ const ExperienceSection = () => {
     {
       icon: Sparkles,
       title: "Deslumbrantes espectáculos y cabalgatas",
-      description: "No te pierdas los espectáculos inmersivos y los impresionantes desfiles... ¡una parte esencial de cualquier visita a Wonderland Adventures!",
+      description: "No te pierdas los espectáculos inmersivos y los impresionantes desfiles... ¡una parte esencial de cualquier visita a Fantasyland Adventures!",
       buttonText: "Saber más",
       bgColor: "bg-purple-100"
     }
@@ -31,7 +31,7 @@ const ExperienceSection = () => {
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">La experiencia de Wonderland Adventures</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">La experiencia de Fantasyland Adventures</h2>
           <p className="text-lg text-muted-foreground">
             ¡Disfruta de increíbles espectáculos, cabalgatas, encuentros con Personajes y un sinfín de actividades para todas las edades y todos los gustos!
           </p>
@@ -58,7 +58,7 @@ const ExperienceSection = () => {
 
         <div className="text-center">
           <Button className="rounded-full px-8 py-6 text-base font-semibold">
-            Descubre la experiencia de Wonderland Adventures
+            Descubre la experiencia de Fantasyland Adventures
           </Button>
         </div>
       </div>

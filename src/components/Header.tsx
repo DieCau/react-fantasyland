@@ -3,13 +3,13 @@ import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
-    <header className="bg-card border-b border-border sticky top-0 z-50 shadow-sm">
+    <header className="bg-card border-b border-border top-0 z-50 shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="shrink-0">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-primary via-purple-600 to-pink-600 bg-clip-text text-transparent">
-              WONDERLAND
+              Fantasyland
             </h1>
             <p className="text-xs text-muted-foreground -mt-1">ADVENTURES</p>
           </div>

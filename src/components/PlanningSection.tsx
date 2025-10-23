@@ -14,8 +14,8 @@ const PlanningSection = () => {
     {
       icon: MapPin,
       bgColor: "bg-cyan-600",
-      title: "A poco minutos de París",
-      description: "Si viajas a París este otoño, añade una visita a los Parques Wonderland y dale un toque de magia a tu escapada.",
+      title: "A poco minutos de Tucumán",
+      description: "Si viajas a Tucumán este otoño, añade una visita a los Parques Fantasyland y dale un toque de magia a tu escapada.",
       buttonText: "Más información"
     },
     {
